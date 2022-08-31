@@ -12,6 +12,7 @@ public class TemaQuiz : MonoBehaviour
     public GameObject estrela1;
     public GameObject estrela2;
     public GameObject estrela3;
+    public int numeroQuestoes;
 
     public string[] NomeTema;
 
@@ -28,11 +29,18 @@ public class TemaQuiz : MonoBehaviour
         estrela2.SetActive(false);
         estrela3.SetActive(false);
         btnPlay.interactable = false;
+      
     }
 
   public void selecioneTema(int i){
+    idTema = i;
     txtNomeTema.text = NomeTema[i];
     infoTema.SetActive(true);
     btnPlay.interactable = true;
+    int acertos = 0;
+  }
+
+  public void jogar(){
+    Application.LoadLevel("quiz_scene_tema1");
   }
 }
