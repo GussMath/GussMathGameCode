@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/quiz_scene_nota.unity
     guid: dfd46553619503949a2828ccf103abd2
+  - enabled: 1
+    path: Assets/Scenes/SlideMenu.unity
+    guid: e470876c95cd1514e8ee66f430ef5274
+  - enabled: 1
+    path: Assets/Scenes/SlidePuuzle.unity
+    guid: dfd0b904fe6cf694e812366dc6f74cdd
   m_configObjects: {}
