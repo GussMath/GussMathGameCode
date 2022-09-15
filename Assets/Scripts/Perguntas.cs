@@ -43,7 +43,7 @@ public class Perguntas : MonoBehaviour
             }
             InputResposta.text = "";
             print(idPerguntas);
-             proximaPergunta();
+            proximaPergunta();
         }
         else{
             Application.LoadLevel("quiz_scene_nota");
@@ -52,8 +52,9 @@ public class Perguntas : MonoBehaviour
     // Update is called once per frame
     public void proximaPergunta(){
         int questoes = perguntas.Length;
-        pergunta.text = perguntas[idPerguntas];
         idPerguntas +=1 ;
+        pergunta.text = perguntas[idPerguntas];
+        
     }
     
 }
