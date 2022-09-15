@@ -4,26 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/lvl_1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/lvl_2.unity
-    guid: 07d6124c693ed664bab02d243a40e1d1
-  - enabled: 1
-    path: Assets/Scenes/quiz_scene.unity
-    guid: 3861260f39c19dc41b8816c24c338460
-  - enabled: 1
-    path: Assets/Scenes/quiz_scene_tema1.unity
-    guid: 6a17f06325a305d45ab578d479b2a23b
-  - enabled: 0
-    path: Assets/Scenes/quiz_scene2.unity
-    guid: ee93fd9c0b4ae5a47998bdc58ff7fe29
-  - enabled: 1
-    path: Assets/Scenes/quiz_scene_nota.unity
-    guid: dfd46553619503949a2828ccf103abd2
-  - enabled: 1
-    path: Assets/Scenes/SlidePuuzle.unity
-    guid: dfd0b904fe6cf694e812366dc6f74cdd
+  m_Scenes: []
   m_configObjects: {}

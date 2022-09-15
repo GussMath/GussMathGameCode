@@ -9,6 +9,7 @@ EditorUserSettings:
       value: 07575056070c590f0b0b5a2116750644134f49787f7e70342e7f1b64b6e3303c
       flags: 0
     RecentlyUsedSceneGuid-1:
+<<<<<<< HEAD
       value: 5550055103055f085f5b0d7140765b4443161a7f7b7022647a701f61e3b2673a
       flags: 0
     RecentlyUsedSceneGuid-2:
@@ -21,9 +22,14 @@ EditorUserSettings:
       value: 5a0004075651505d59565f2613720e4410161d7c2e71713174711f31bbe4353d
       flags: 0
     RecentlyUsedSceneGuid-5:
+=======
+      value: 060503565d025f58545b0f2641760e44134f1d2f7a7e20647e791835b7b2636c
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+>>>>>>> SlidePuzzle
       value: 06540d55035150585d0c582315765e44414e41722e2c2565752f1b64e4e56661
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-3:
       value: 500902575703595d5e570f7349275c44471540727d7e2562792a4e60bab46268
       flags: 0
     RecentlyUsedSceneGuid-7:
