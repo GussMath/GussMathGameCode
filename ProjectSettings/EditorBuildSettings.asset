@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SlidePuuzle.unity
     guid: dfd0b904fe6cf694e812366dc6f74cdd
+  - enabled: 1
+    path: Assets/Scenes/MathCombinationMENU.unity
+    guid: 7525051955c8feb4fb4f0bcbf4874901
+  - enabled: 1
+    path: Assets/Scenes/arrastaSoltaCOMOJOGAR.unity
+    guid: 4b895265422b13e41a988f2ea7e96e9f
+  - enabled: 1
+    path: Assets/Scenes/SlidePuzleComoJogar.unity
+    guid: d87c9d8afedfb874dbd09e9bd6a05094
+  - enabled: 1
+    path: Assets/Scenes/ArrastaeSolta.unity
+    guid: 0841e3565d162674d81fdb19be0cf301
   m_configObjects: {}
