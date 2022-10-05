@@ -7,6 +7,12 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.10697386" = "default-2021.dwlt"
+	"OpenInspectorPreview.10697386" = "0"
+	"currentGroup.10697386" = "all"
+	"last_search.DE949528" = "default-2021.dwlt"
+	"OpenInspectorPreview.DE949528" = "0"
+	"currentGroup.DE949528" = "all"
 }
 providers = {
 	adb = {
@@ -53,6 +59,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"default-2021.dwlt"
 ]
 searchItemFavorites = [
 ]

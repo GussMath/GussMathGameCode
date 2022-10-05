@@ -298,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535070243}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: 167, z: 0}
+  m_LocalPosition: {x: 12, y: 122, z: 0}
   m_LocalScale: {x: 49.9442, y: 49.9442, z: 49.9442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575000090}
   - component: {fileID: 575000089}
+  - component: {fileID: 575000091}
   m_Layer: 0
   m_Name: _GC
   m_TagString: Untagged
@@ -401,6 +402,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &575000091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575000088}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d14bfedabeb564190b764b625aa8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 1614379929}
+  txtNomeTema: {fileID: 0}
+  txtInfoTema: {fileID: 0}
+  infoTema: {fileID: 0}
+  estrela1: {fileID: 0}
+  estrela2: {fileID: 0}
+  estrela3: {fileID: 0}
+  numeroQuestoes: 0
+  NomeTema: []
 --- !u!1 &1571175443
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198}
+  m_AnchoredPosition: {x: 0, y: -174.99998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614379929
@@ -587,16 +609,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 575000089}
-        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
-        m_MethodName: carregaCena
-        m_Mode: 5
+      - m_Target: {fileID: 575000091}
+        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
+        m_MethodName: jogar
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: quiz_scene2
+          m_StringArgument: quiz_scene_tema1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1614379930
@@ -673,8 +695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363, y: 228}
-  m_SizeDelta: {x: 74.83, y: 71.69}
+  m_AnchoredPosition: {x: 304.25, y: 192.72}
+  m_SizeDelta: {x: 62.33, y: 64.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647044899
 MonoBehaviour:
@@ -847,8 +869,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092548184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1.0088, y: 1.0088, z: 1.0088}
+  m_LocalPosition: {x: -0.06, y: 0.15, z: -10}
+  m_LocalScale: {x: 1.0088, y: 1.4261911, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
