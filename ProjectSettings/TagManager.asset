@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Spike
   - Saw
+  - nextLevelQuiz
+  - Portal
   layers:
   - Default
   - TransparentFX

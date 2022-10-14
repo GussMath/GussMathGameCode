@@ -46,6 +46,7 @@ public class Perguntas : MonoBehaviour
             proximaPergunta();
         }
         else{
+            PlayerPrefs.SetInt("acertos",  nAcertos);
             Application.LoadLevel("quiz_scene_nota");
         }
     }
