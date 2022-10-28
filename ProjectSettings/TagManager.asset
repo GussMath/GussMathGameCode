@@ -8,6 +8,8 @@ TagManager:
   - Saw
   - nextLevelQuiz
   - Portal
+  - PortalSlide
+  - PortalQuiz
   layers:
   - Default
   - TransparentFX

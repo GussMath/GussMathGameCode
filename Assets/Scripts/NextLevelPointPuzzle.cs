@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NextLevelPoint : MonoBehaviour
+public class NextLevelPointPuzzle : MonoBehaviour
 {
-    public string lvlName;
     public Text yourText;
     public GameObject target;
     public Canvas myCanvas;
@@ -18,16 +17,16 @@ public class NextLevelPoint : MonoBehaviour
     }
 
     void Update() {
-        if(yourText.enabled && target.tag == "Portal"){
+        if(yourText.enabled && target.tag == "PortalSlide"){
             if(Input.GetKeyDown(KeyCode.E)){
-                SceneManager.LoadScene("quiz_scene");
+                SceneManager.LoadScene("SlideMenu");
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player"){
-            if(target.tag == "Portal"){
+            if(target.tag == "PortalSlide"){
                 yourText.enabled = true;
                 myCanvas.enabled = true;
             }

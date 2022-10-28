@@ -22,8 +22,6 @@ public class Perguntas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        erros.text = "erros = 0";
-        acertos.text = "acertos = 0";
         idPerguntas = 0;
         int questoes = perguntas.Length;
         print(questoes);
@@ -36,10 +34,8 @@ public class Perguntas : MonoBehaviour
             string resposta = InputResposta.text;
             if(resposta == respostasCorretas[idPerguntas]){
                 nAcertos += 1;
-                acertos.text = "acertos = "+ nAcertos;
             }else{
                 nErros += 1;
-                erros.text = "erros = "+ nErros;
             }
             InputResposta.text = "";
             print(idPerguntas);

@@ -43,4 +43,8 @@ public class TemaQuiz : MonoBehaviour
   public void jogar(){
     Application.LoadLevel("quiz_scene_tema1");
   }
+
+  public void sair(){
+    Application.LoadLevel("lvl_1");
+  }
 }

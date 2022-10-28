@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81692780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 93, z: 0}
+  m_LocalPosition: {x: 12, y: 43, z: 0}
   m_LocalScale: {x: 52.96515, y: 52.96515, z: 52.96515}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -284,7 +284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356340704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.31, y: 0.21, z: 0}
   m_LocalScale: {x: 15.097108, y: 10.979715, z: 10.979715}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -394,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 359, y: 228}
+  m_AnchoredPosition: {x: 256, y: 161}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087133798
@@ -441,10 +441,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1359577180}
-        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
-        m_MethodName: carregaCena
-        m_Mode: 5
+      - m_Target: {fileID: 1359577183}
+        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
+        m_MethodName: sair
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -526,7 +526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 113}
+  m_AnchoredPosition: {x: 12, y: 76}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129506113
@@ -662,7 +662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -186}
+  m_AnchoredPosition: {x: 12, y: -158}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265255476
@@ -709,10 +709,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1359577180}
-        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
-        m_MethodName: carregaCena
-        m_Mode: 5
+      - m_Target: {fileID: 1359577183}
+        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
+        m_MethodName: jogar
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -770,6 +770,7 @@ GameObject:
   - component: {fileID: 1359577181}
   - component: {fileID: 1359577180}
   - component: {fileID: 1359577182}
+  - component: {fileID: 1359577183}
   m_Layer: 0
   m_Name: _GC
   m_TagString: Untagged
@@ -818,6 +819,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtAcertos: {fileID: 1858454808}
   acertos: 0
+--- !u!114 &1359577183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359577179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d14bfedabeb564190b764b625aa8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 0}
+  txtNomeTema: {fileID: 0}
+  txtInfoTema: {fileID: 0}
+  infoTema: {fileID: 0}
+  estrela1: {fileID: 0}
+  estrela2: {fileID: 0}
+  estrela3: {fileID: 0}
+  numeroQuestoes: 0
+  NomeTema: []
 --- !u!1 &1417371719
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417371719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.2467604, z: 0}
+  m_LocalPosition: {x: 0.03, y: 2.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1084,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23}
+  m_AnchoredPosition: {x: 14, y: -8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2092548184
