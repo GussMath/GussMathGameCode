@@ -20,7 +20,7 @@ public class NextLevelPoint : MonoBehaviour
     void Update() {
         if(yourText.enabled && target.tag == "Portal"){
             if(Input.GetKeyDown(KeyCode.E)){
-                SceneManager.LoadScene(lvlName);
+                SceneManager.LoadScene("quiz_scene");
             }
         }
     }
