@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/quiz_scene.unity
     guid: 3861260f39c19dc41b8816c24c338460
+  - enabled: 1
+    path: Assets/Scenes/voice_scene_menu.unity
+    guid: 61f658e4d6655ce45acf68f454c0b8a5
+  - enabled: 1
+    path: Assets/Scenes/voice_scene_pergunta.unity
+    guid: 971ce1dfe8233b64f811cd79a19b5f46
   m_configObjects: {}
