@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Number5 : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler {
 
+
     [SerializeField] private Canvas canvas;
 
     private RectTransform rectTransform;
