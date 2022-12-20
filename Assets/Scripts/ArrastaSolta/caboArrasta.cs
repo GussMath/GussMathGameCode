@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuArrastaeSolta : MonoBehaviour
+public class caboArrasta : MonoBehaviour
 {
+    public int scores;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +15,14 @@ public class MenuArrastaeSolta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void MenuArrasta()
+    public void Click()
     {
-        SceneManager.LoadScene("MathCombinationMENU");
-        
+         SceneManager.LoadScene("MathCombinationMENU");
+            scores = PlayerPrefs.GetInt("score");
+            scores = 0;
+            PlayerPrefs.SetInt("score",  scores);
     }
 }

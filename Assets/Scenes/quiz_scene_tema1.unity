@@ -296,6 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 383861892}
   - component: {fileID: 383861891}
+  - component: {fileID: 383861893}
   m_Layer: 0
   m_Name: _GC
   m_TagString: Untagged
@@ -315,33 +316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d4b800be33a75469ece6e300dfabda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: {fileID: 512242959}
-  InputResposta: {fileID: 217120993}
-  qtdPerguntas: {fileID: 0}
-  erros: {fileID: 0}
-  acertos: {fileID: 0}
-  perguntas:
-  - 18 - 6 = ?
-  - 5 + 36 = ?
-  - 18 + 15 = ?
-  - 6 * 5 = ?
-  - 25 - 13 = ?
-  - 36 + 6 = ?
-  - 28 - 7 = ?
-  - 78 + 2 = ?
-  - 60 + 55 = ?
-  - 9 * 9 = ?
-  respostasCorretas:
-  - 12
-  - 41
-  - 33
-  - 30
-  - 12
-  - 42
-  - 21
-  - 80
-  - 115
-  - 81
 --- !u!4 &383861892
 Transform:
   m_ObjectHideFlags: 0
@@ -357,6 +331,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383861893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383861890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658e9e80700d47d4cb58e6ccdfa8bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pergunta: {fileID: 512242959}
+  InputResposta: {fileID: 217120993}
+  qtdPerguntas: {fileID: 0}
+  erros: {fileID: 0}
+  acertos: {fileID: 0}
+  perguntas:
+  - 23 + 8 = ?
+  - 10 - 30 = ?
+  - 7 x 8 = ?
+  - 90 / 10 = ?
+  - 3 x 9 = ?
+  - 101 - 77 = ?
+  - 13 x 6 = ?
+  - 16 / 4 = ?
+  - 11 x 10 = ?
+  - 24 + 37 = ?
+  respostasCorretas:
+  - 31
+  - 20
+  - 56
+  - 9
+  - 27
+  - 24
+  - 78
+  - 4
+  - 110
+  - 61
 --- !u!1 &415318812
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +968,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.911}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 252, y: -162}
+  m_AnchoredPosition: {x: 240, y: -144}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902876697
@@ -1002,7 +1015,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 383861891}
+      - m_Target: {fileID: 383861893}
         m_TargetAssemblyTypeName: Perguntas, Assembly-CSharp
         m_MethodName: responder
         m_Mode: 1
@@ -1105,7 +1118,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.4797702
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1129,7 +1142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092548184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.08, y: -1.93, z: -10}
   m_LocalScale: {x: 1.0088, y: 1.0088, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []

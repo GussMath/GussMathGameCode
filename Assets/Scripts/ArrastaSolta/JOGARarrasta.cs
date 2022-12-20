@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class BotaoproximaFase : MonoBehaviour
+public class JOGARarrasta : MonoBehaviour
 {
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -14,8 +16,9 @@ public class BotaoproximaFase : MonoBehaviour
     {
         
     }
-    public void Click()
+
+    public void JOGARas()
     {
-        
+        SceneManager.LoadScene("ArrastaeSolta");
     }
 }

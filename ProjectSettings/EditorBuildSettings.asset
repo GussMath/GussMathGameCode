@@ -29,10 +29,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/quiz_scene.unity
     guid: 3861260f39c19dc41b8816c24c338460
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/voice_scene_menu.unity
     guid: 61f658e4d6655ce45acf68f454c0b8a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/voice_scene_pergunta.unity
     guid: 971ce1dfe8233b64f811cd79a19b5f46
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaeSolta.unity
+    guid: 0841e3565d162674d81fdb19be0cf301
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/arrastaSoltaCOMOJOGAR.unity
+    guid: 4b895265422b13e41a988f2ea7e96e9f
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/MathCombinationMENU.unity
+    guid: 7525051955c8feb4fb4f0bcbf4874901
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaSegundaFase.unity
+    guid: 8928a9a69ab665c4888ed12de14e1fc0
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaTerceiraFase.unity
+    guid: ff3edfb3c75f1844ba599ff9bc886d82
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaSetimaFase.unity
+    guid: 27890e7e54aacd846a3902eb56e5e319
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaSextaFase.unity
+    guid: d4e96f4f4bc5ddb4ba461050bcaf5f09
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaCABO.unity
+    guid: ec6936132f64fba49af266b2ccda7783
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaQuintaFase.unity
+    guid: a59f2342e1a2c3f44a1660861f4b41b0
+  - enabled: 1
+    path: Assets/Scenes/Arrasta/ArrastaQuartaFase.unity
+    guid: ade3f06494314084cb355ed814b5cee4
   m_configObjects: {}

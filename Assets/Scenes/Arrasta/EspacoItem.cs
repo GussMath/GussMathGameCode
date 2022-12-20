@@ -6,22 +6,16 @@ using UnityEngine.UI;
 
 public class EspacoItem : MonoBehaviour, IDropHandler {
 
+    public string numeroNoEspaco = "";
+
     public void OnDrop(PointerEventData eventData) {
         Debug.Log("OnDrop");
         if (eventData.pointerDrag != null) {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-
-            //if(Number5.gameObject.tag == "Resposta1"){
-            //Debug.Log("entrou");
-            //}
+            numeroNoEspaco = eventData.pointerDrag.tag;
         }
         }
 
-        void OnTriggerEnter(Collider other)
-     {
-         if (other.transform.tag == "Resposta1")
-            Debug.Log("entrou");
-     }
     }
 
 

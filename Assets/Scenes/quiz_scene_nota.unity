@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 1087133800}
   - component: {fileID: 1087133799}
   - component: {fileID: 1087133798}
+  - component: {fileID: 1087133801}
   m_Layer: 5
   m_Name: btnSair
   m_TagString: Untagged
@@ -441,10 +442,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1359577183}
-        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
-        m_MethodName: sair
-        m_Mode: 1
+      - m_Target: {fileID: 1359577180}
+        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
+        m_MethodName: carregaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -491,6 +492,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087133796}
   m_CullTransparentMesh: 1
+--- !u!114 &1087133801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087133796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97d3bb99737c3141a16d2e7e71c50a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1129506111
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +564,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Parabens !!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -638,6 +651,7 @@ GameObject:
   - component: {fileID: 1265255478}
   - component: {fileID: 1265255477}
   - component: {fileID: 1265255476}
+  - component: {fileID: 1265255479}
   m_Layer: 5
   m_Name: btnJogarNovamente
   m_TagString: Untagged
@@ -709,10 +723,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1359577183}
-        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
-        m_MethodName: jogar
-        m_Mode: 1
+      - m_Target: {fileID: 1359577180}
+        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
+        m_MethodName: carregaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -759,6 +773,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265255474}
   m_CullTransparentMesh: 1
+--- !u!114 &1265255479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265255474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97d3bb99737c3141a16d2e7e71c50a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1359577179
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,15 +857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d14bfedabeb564190b764b625aa8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnPlay: {fileID: 0}
-  txtNomeTema: {fileID: 0}
-  txtInfoTema: {fileID: 0}
-  infoTema: {fileID: 0}
-  estrela1: {fileID: 0}
-  estrela2: {fileID: 0}
-  estrela3: {fileID: 0}
-  numeroQuestoes: 0
-  NomeTema: []
 --- !u!1 &1417371719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,7 +1179,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.4065063
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1186,7 +1203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092548184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.24, y: -1.7, z: -10}
   m_LocalScale: {x: 1.0088, y: 1.0088, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []

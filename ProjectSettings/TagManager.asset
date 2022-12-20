@@ -11,6 +11,17 @@ TagManager:
   - PortalSlide
   - PortalQuiz
   - Resposta1
+  - 5
+  - 1
+  - 2
+  - 0
+  - 6
+  - 4
+  - 3
+  - 9
+  - 7
+  - 8
+  - PortalArrasta
   layers:
   - Default
   - TransparentFX

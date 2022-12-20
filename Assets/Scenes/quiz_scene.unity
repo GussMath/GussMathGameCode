@@ -298,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535070243}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 122, z: 0}
+  m_LocalPosition: {x: 9, y: 79, z: 0}
   m_LocalScale: {x: 49.9442, y: 49.9442, z: 49.9442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -414,15 +414,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d14bfedabeb564190b764b625aa8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnPlay: {fileID: 1614379929}
-  txtNomeTema: {fileID: 0}
-  txtInfoTema: {fileID: 0}
-  infoTema: {fileID: 0}
-  estrela1: {fileID: 0}
-  estrela2: {fileID: 0}
-  estrela3: {fileID: 0}
-  numeroQuestoes: 0
-  NomeTema: []
 --- !u!1 &1571175443
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +528,7 @@ GameObject:
   - component: {fileID: 1614379928}
   - component: {fileID: 1614379931}
   - component: {fileID: 1614379930}
+  - component: {fileID: 1614379932}
   - component: {fileID: 1614379929}
   m_Layer: 5
   m_Name: btnPlay
@@ -562,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -139}
+  m_AnchoredPosition: {x: 0.000000059605, y: -125}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614379929
@@ -609,10 +601,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 575000091}
-        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
-        m_MethodName: jogar
-        m_Mode: 1
+      - m_Target: {fileID: 1614379932}
+        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
+        m_MethodName: carregaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -659,6 +651,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614379927}
   m_CullTransparentMesh: 1
+--- !u!114 &1614379932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614379927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97d3bb99737c3141a16d2e7e71c50a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1647044897
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +675,7 @@ GameObject:
   - component: {fileID: 1647044901}
   - component: {fileID: 1647044900}
   - component: {fileID: 1647044899}
+  - component: {fileID: 1647044902}
   m_Layer: 5
   m_Name: btnExit
   m_TagString: Untagged
@@ -695,7 +700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 264, y: 155}
+  m_AnchoredPosition: {x: 249, y: 153.26}
   m_SizeDelta: {x: 62.33, y: 64.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647044899
@@ -742,10 +747,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 575000091}
-        m_TargetAssemblyTypeName: TemaQuiz, Assembly-CSharp
-        m_MethodName: sair
-        m_Mode: 1
+      - m_Target: {fileID: 575000089}
+        m_TargetAssemblyTypeName: ComandosBasicosQuiz, Assembly-CSharp
+        m_MethodName: carregaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -792,6 +797,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647044897}
   m_CullTransparentMesh: 1
+--- !u!114 &1647044902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647044897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97d3bb99737c3141a16d2e7e71c50a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2092548184
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +862,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.479771
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -869,7 +886,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092548184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: 0.15, z: -10}
+  m_LocalPosition: {x: 0.02, y: -1.86, z: -10}
   m_LocalScale: {x: 1.0088, y: 1.4261911, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []
